@@ -1,15 +1,12 @@
-category:
-    css: 'div.a-subheader ul.a-unordered-list'
+price:
+    css: 'div.a-box-inner span.a-size-medium.a-color-price'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," a-box-inner ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-medium ")][contains(concat(" ",normalize-space(@class)," ")," a-color-price ")]'
     type: Text
-original_price:
-    css: span.priceBlockStrikePriceString
+title:
+    css: span.a-size-large
+    xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
     type: Text
-name:
-    css: span.a-icon-alt
-    type: Text
-sale_price:
-    css: 'a-size-medium a-color-price priceBlockBuyingPriceString'
-    type: Text
-availability:
-    css: 'div.feature div.a-section div.feature div.a-section div.a-section span.a-size-medium'
+image:
+    css: 'div.imgTagWrapper div'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," imgTagWrapper ")]//div'
     type: Text
