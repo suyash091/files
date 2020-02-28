@@ -1,14 +1,12 @@
 price:
     css: 'td.a-span12 span.a-size-medium'
-    xpath: '//td[contains(concat(" ",normalize-space(@class)," ")," a-span12 ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-medium ")]'
     type: Text
 title:
     css: span.a-size-large
     xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
     type: Text
 save:
-    css: td.a-span12.a-color-price
-    xpath: '//td[contains(concat(" ",normalize-space(@class)," ")," a-span12 ")][contains(concat(" ",normalize-space(@class)," ")," a-color-price ")]'
+    css: span.priceBlockStrikePriceString
     type: Text
 image:
     css: 'div.imgTagWrapper img.a-dynamic-image'
