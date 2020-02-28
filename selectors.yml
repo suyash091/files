@@ -1,12 +1,9 @@
 price:
     css: 'div.a-box-inner span.a-size-medium.a-color-price'
-    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," a-box-inner ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-medium ")][contains(concat(" ",normalize-space(@class)," ")," a-color-price ")]'
     type: Text
 title:
     css: span.a-size-large
-    xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
     type: Text
 image:
     css: 'div.imgTagWrapper div'
-    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," imgTagWrapper ")]//div'
     type: Text
