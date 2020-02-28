@@ -6,7 +6,7 @@ title:
     xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
     type: Text
 save:
-    css: span.priceBlockStrikePriceString
+    css: span.priceBlockStrikePriceString.a-text-strike
     type: Text
 image:
     css: 'div.imgTagWrapper img.a-dynamic-image'
