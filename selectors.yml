@@ -1,9 +1,24 @@
 price:
-    css: 'div.a-box-inner span.a-size-medium.a-color-price'
+    css: 'td.a-span12 span.a-size-medium'
+    xpath: '//td[contains(concat(" ",normalize-space(@class)," ")," a-span12 ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-medium ")]'
     type: Text
 title:
     css: span.a-size-large
+    xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
+    type: Text
+save:
+    css: td.a-span12.a-color-price
+    xpath: '//td[contains(concat(" ",normalize-space(@class)," ")," a-span12 ")][contains(concat(" ",normalize-space(@class)," ")," a-color-price ")]'
     type: Text
 image:
-    css: 'div.imgTagWrapper div'
+    css: 'div.imgTagWrapper img.a-dynamic-image'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," imgTagWrapper ")]//img[contains(concat(" ",normalize-space(@class)," ")," a-dynamic-image ")]'
+    type: Text
+rating:
+    css: 'div.a-icon-row span.a-size-medium'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," a-icon-row ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-medium ")]'
+    type: Text
+soldby:
+    css: 'div.centerColAlign div.a-section.a-spacing-none a.a-link-normal'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," centerColAlign ")]//div[contains(concat(" ",normalize-space(@class)," ")," a-section ")][contains(concat(" ",normalize-space(@class)," ")," a-spacing-none ")]//a[contains(concat(" ",normalize-space(@class)," ")," a-link-normal ")]'
     type: Text
